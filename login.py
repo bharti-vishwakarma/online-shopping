@@ -152,7 +152,7 @@ try:
                                      
                           elif A.lower()=="e":            
                                #DELETION OF PRODUCTS
-                                DE="delete from products where p_id=%s"
+                                DE="DELETE FROM products WHERE p_id=%s"
                                 cl="delete from clothes where p_id=%s"
                                 n=int(input("Enter no of products need to be deleted:"))
                                 for i in range(n):
