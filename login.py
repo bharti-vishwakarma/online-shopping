@@ -95,7 +95,7 @@ try:
                               #ADDITION OF PRODUCTS
                               product="insert into products values(%s,%s,%s,%s)"
                               clo="insert into clothes values(%s,%s,%s,%s)"
-                              n=int(input("Enter No of Products need to be added:"))
+                              n=int(input("Enter No of Products need to be added :"))
                                  
                               for i in range(n):
                                   cate=input("ENTER CATE_ID  in which you want to insert products:")
