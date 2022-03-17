@@ -2,7 +2,6 @@ import mysql.connector as c
 from mysql.connector import Error
 from tabulate import tabulate
 
-
 try:
     conn=c.connect(host="localhost",username="dev",password="Breakit_123",database="onlinestore",charset="utf8")
     if conn.is_connected():
